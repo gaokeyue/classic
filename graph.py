@@ -1,0 +1,2 @@
+class DenseGraph:
+    pass
