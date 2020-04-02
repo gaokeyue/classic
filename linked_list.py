@@ -1,5 +1,5 @@
 from __future__ import annotations
-from dataclasses import dataclass, make_dataclass, field
+from dataclasses import dataclass, field
 from typing import Any, Iterable
 
 # @dataclass()
@@ -72,11 +72,11 @@ class SLinkedList:
         return self.next is None
 
 
-class DoubleLinkedList(SLinkedList):
+class DoubleLinkedList:
     pass
 
 
-class CircularLinkedList(DoubleLinkedList):
+class CircularLinkedList:
     pass
 
 if __name__ == '__main__':
