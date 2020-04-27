@@ -16,7 +16,7 @@ def improve(tour, candidates, cost):
 
 def dfs_recursion(i, break_vs, gain):
     """If a feasible and profitable tour is found beyond break_vs = [v1, v2,..., v_(2i-1), v_(2i)],
-    this function returns the tour. Otherwise return None.
+    this function returns the tour. Otherwise return None."""
     for v_(2i+1) in candidates[v_(2i)]:
         if v_(2i+1) is worth exploring:  # disjunctivity and positive gain
             break_vs.append(v_(2i+1))
